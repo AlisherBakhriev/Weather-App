@@ -29,11 +29,11 @@ let getWeather = () => {
                     <div class="temp-container">
                     <div>
                         <h4 class="title">lowest temperature</h4>
-                        <h4 class="temp">${data.main.temp_min}&#176;</h4>
+                        <h4 class="temp">${data.main.temp_min}&#179;</h4>
                     </div>
                     <div>
                         <h4 class="title">highest temperature</h4>
-                        <h4 class="temp">${data.main.temp_max}&#176;</h4>
+                        <h4 class="temp">${data.main.temp_max}&#179;</h4>
                     </div>
                 </div>
                  `;

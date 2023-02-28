@@ -35,14 +35,17 @@ let getWeather = () => {
                         <h4 class="title">highest temperature</h4>
                         <h4 class="temp">${data.main.temp_max}&#179;</h4>
                     </div>
+
                 </div>
                  `;
             })
             .catch(() => {
                 result.innerHTML = `<h3 class="msg">City not found</h3>`;
             });
-    }
+    
+        }
 };
+
 searchBtn.addEventListener("click", getWeather);
 window.addEventListener("load", getWeather);
 

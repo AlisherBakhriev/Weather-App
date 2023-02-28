@@ -45,9 +45,7 @@ let getWeather = () => {
     
         }
 };
-
 searchBtn.addEventListener("click", getWeather);
 window.addEventListener("load", getWeather);
 
-//key
 key = "ca799e241c694d886db7c9f33b5dbedd";
